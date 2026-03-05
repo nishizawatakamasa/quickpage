@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "quickpage"
+version = "1.0.0"
+dependencies = [
+    "playwright>=1.49.0",
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "nishizawatakamasa", email = "nszw0502@gmail.com"}
+]
+description = "A wrapper for Playwright Page that simplifies browser automation and scraping."
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "playwright",
+    "scraping",
+    "browser automation"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+repository = "https://github.com/nishizawatakamasa/quickpage"
