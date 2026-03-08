@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "quickpage"
-version = "1.0.0"
+version = "2.0.0"
 dependencies = [
     "playwright>=1.49.0",
 ]
